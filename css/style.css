@@ -1,0 +1,25 @@
+#header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-height: 75px;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  #header {
+    flex-wrap: wrap;
+  }
+}
+
+#container {
+  margin-top: 75px;
+}
+
+nav {
+  margin-right: 30px;
+}
